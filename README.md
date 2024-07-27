@@ -91,5 +91,8 @@ Navigate to the frontend directory and start the React development server:
 bash
 Copy code
 cd ../frontend
+
+ export NODE_OPTIONS=--openssl-legacy-provider
+
 npm start
 
